@@ -1,26 +1,21 @@
 "use strict"
 
-if(4==5){
-    console.log('Super!!');
-} else {console.log('Its bad!')}
+let num = 50;
 
+// while(num <=55) {console.log (num);
+// num++;
+// }
 
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while (num<59);
 
-(65 != 77) ? console.log('Super') : console.log('Bad');
-
-const num = 50;
-
-switch(num) {
-    case 49:
-        console.log('Wrong!!!');
-        break;
-    case 48:
-        console.log('Wrong!!!');
-        break;
-        case 58:
-            console.log('Ok!!!');
-            break;   
-            default:
-                console.log('Not in this time');
-                break;
+for (let i = 1; i<=8; i++) {
+    if(i== 6) {
+        // break;
+        continue;
+    }
+   console.log(i); 
 }
